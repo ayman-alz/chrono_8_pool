@@ -225,7 +225,7 @@ class RowSetting extends StatelessWidget {
           child: FutureBuilder<int>(
               future: set.getData(type),
               builder: (context, snapshot) => Text(snapshot.data?.toString() ??
-                  "-")), // You can replace this with a TextField for better editing experience
+                  "")), // You can replace this with a TextField for better editing experience
         ),
         IconButton(
           onPressed: () {

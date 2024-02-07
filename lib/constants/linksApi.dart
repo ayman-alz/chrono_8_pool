@@ -12,5 +12,3 @@ const String linkAddNote = "$LinkServerName/notes/add.php";
 const String linkEditNote = "$LinkServerName/notes/edit.php";
 const String linkDeleteNote = "$LinkServerName/notes/delete.php";
 
-
-

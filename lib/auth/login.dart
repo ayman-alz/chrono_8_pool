@@ -205,7 +205,7 @@ class _LoginState extends State<Login> {
                               ),
                               Container(height: 10),
                               InkWell(
-                                child: Text("${getLang(context, "Login")}"),
+                                child: Text("${getLang(context, "login")}"),
                                 onTap: () {
                                     setState(() {
                                       isSignUp = false;
