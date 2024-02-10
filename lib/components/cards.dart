@@ -36,8 +36,8 @@ static Future<void> saveImage(String url) async {
               flex: 1,
               child: Image.network(
                 "$linkImageRoot/${noteModel.noteImage}",
-                width: 100,
-                height: 100,
+                width: MediaQuery.of(context).size.width * 0.8,
+                height: MediaQuery.of(context).size.height * 0.2,
                 fit: BoxFit.fill,
               ),
             ),
