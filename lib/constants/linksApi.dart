@@ -1,5 +1,5 @@
 const String LinkServerName = "http://192.168.1.19/backend-project";
-
+//192.168.1.19
 const String linkImageRoot = "http://192.168.1.19/backend-project/upload";
 
 // Auth

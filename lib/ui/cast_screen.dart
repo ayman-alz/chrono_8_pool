@@ -104,15 +104,15 @@ class _CastScreenState extends State<CastScreen> {
     print('_sendMessagePlayVideo');
 
     var message = {
-      'contentId': 'http://commondatastorage.googleapis.com/gtv-videos-bucket/big_buck_bunny_1080p.mp4',
-      'contentType': 'video/mp4',
+      'contentId': 'https://www.sports.gouv.fr/sites/default/files/styles/large/public/2022-08/ffb-logo2015-rvb-1200px-png-885.png?itok=SCXlY6l_', // Direct link to the YouTube video
+      'contentType': 'image/png',
       'streamType': 'BUFFERED',
       'metadata': {
         'type': 0,
         'metadataType': 0,
-        'title': 'Big Buck Bunny',
+        'title': 'FFB Billiard',
         'images': [
-          {'url': 'https://www.youtube.com/watch?v=yxif9Tj8fDE&t=43s'}
+          {'url': 'https://www.sports.gouv.fr/sites/default/files/styles/large/public/2022-08/ffb-logo2015-rvb-1200px-png-885.png?itok=SCXlY6l_'} // Direct link to the thumbnail image
         ]
       }
     };
